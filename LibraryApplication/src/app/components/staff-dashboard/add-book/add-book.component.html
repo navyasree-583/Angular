@@ -1,0 +1,129 @@
+<app-staff-dashboard></app-staff-dashboard>
+
+<head> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<div class="container">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="text-center">
+<form>
+    <h1>
+        Add Books
+    </h1>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Id</label>
+        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Book Id">   
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Title</label>
+      <input type="Text" class="form-control" id="exampleInputPassword1" placeholder="Enter the book name">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Author Name</label>
+        <input type="Text" class="form-control" id="exampleInputPassword1" placeholder="Enter the Author name">
+      </div>
+   
+    <div class="form-group">
+        <label for="exampleInputEmail1">Cost</label>
+        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter the book cost">   
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Quantity</label>
+        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter the number of books">   
+    </div>
+    <button type="submit" class="btn btn-primary">Add</button>
+  </form>
+</div>
+</div>
+</div>
+</div>
+<!-- <head>
+    <title>Add Books</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<body>
+
+  <div class="card">
+    <form [formGroup]="userForm">
+      <div class="mt-5">
+        <div class="col-md-12">
+          <div class="form-group mt-4">
+            <label >Id</label>
+          </div>
+          <div class="form-row" style="margin-top:-10px">
+            <div class="col">
+              <input type="number" formControlName="Id" class="form-control" placeholder="Id">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="form-group">
+            <label >Title</label>
+          </div>
+          <div class="form-row" style="margin-top:-10px">
+            <div class="col">
+              <input type="text" formControlName="Title" class="form-control" placeholder="Title">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="form-group">
+            <label >Author</label>
+          </div>
+          <div class="form-row" style="margin-top:-10px">
+            <div class="col">
+              <input type="text" formControlName="Author" class="form-control" placeholder="Author">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="form-group">
+            <label >Quantity</label>
+          </div>
+          <div class="form-row" style="margin-top:-10px">
+            <div class="col">
+              <input type="text" formControlName="Quantity" class="form-control" placeholder="Quantity">
+            </div>
+          </div>
+        </div>
+        <div class="form-row mt-4">
+          <div class="col-md-6">
+            <button type="button" class="btn btn-primary" (click)="addBook()">Add</button>
+            </div>
+             <div class="col-md-6">
+            <button type="button" class="btn btn-primary" (click)="resetBook()">Reset</button>
+      
+          </div> 
+        </div>
+      </div>
+    </form>
+
+    <div class="col-md-8 mt-4 mb-4">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Quality</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let book in listData">
+            <td><span>{{book.Id}}</span></td>
+            <td><span>{{book.Title}}</span></td>
+            <td><span>{{book.Author}}</span></td>
+            <td><span>{{book.Quantity}}</span></td>
+             <button type="button" class="btn btn-primary" (click)="removeBook(book)">Remove</button>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+  </body>  -->

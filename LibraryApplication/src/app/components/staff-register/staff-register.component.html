@@ -1,0 +1,49 @@
+<app-navbar></app-navbar>
+<head> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Staff Sign up</h1>
+                    <h6>Please enter the your details!</h6>
+                    <form>
+                        <div class="form-outline mb-4">
+                            
+                            <input type="text" id="form2Example1" class="form-control" />
+                            <label class="form-label" for="form2Example1">Name</label>
+                        </div>
+                        
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                            
+                            <input type="email" id="form2Example1" class="form-control" />
+                            <label class="form-label" for="form2Example1">Email address</label>
+                        </div>
+                      
+                        <div class="form-outline mb-4">
+                            
+                            <input type="number" id="form2Example1" class="form-control" />
+                            <label class="form-label" for="form2Example1">Mobile number</label>
+                        </div>
+
+                        <!-- Password input -->
+                        <div class="form-outline mb-4">
+                            <input type="password" id="form2Example2" class="form-control" />
+                            <label class="form-label" for="form2Example2">Password</label>
+                        </div>
+                      
+                        <br>
+                        <!-- Login button -->
+                        <button type="submit" class="btn btn-primary btn-block" routerLink="/staffRegister">Sign up</button>
+                      </form>
+                      <br>
+                      <a routerLink="/stafflogin" margin-top="10px">Already Registered? Click to Login!!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
